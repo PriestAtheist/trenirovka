@@ -27,23 +27,23 @@
         padding: 8px 0;
         width: 100%;
         p:first-child{
-            font-size: 23px;
+            font-size: 24px;
             color: $item;
         }
         p:last-child{
-            font-size: 10px;
+            font-size: 11px;
             color: $item;
             font-weight: 500;
         }
     }
     .MobileMenu-link-active{
         p:first-child{
-            font-size: 23px;
+            font-size: 24px;
             color: $green;
             filter: drop-shadow(0 0 5px $green);
         }
         p:last-child{
-            font-size: 10px;
+            font-size: 11px;
             color: #fff;
         }
     }
