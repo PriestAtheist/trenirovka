@@ -1,0 +1,51 @@
+@import '../../colors.scss';
+
+.MobileMenu{
+    display: none;
+}
+@media (max-width:1023px){
+    .MobileMenu{
+        display: block;
+    }
+    .MobileMenu-wrap{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+        backdrop-filter: blur(10px);
+        background-color: rgba($color:$bgDark, $alpha:0.5);
+        left: 0;
+        z-index: 1;
+        gap: 0;
+    }
+    
+    .MobileMenu-link,.MobileMenu-link-active{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 0;
+        width: 100%;
+        p:first-child{
+            font-size: 23px;
+            color: $item;
+        }
+        p:last-child{
+            font-size: 10px;
+            color: $item;
+            font-weight: 500;
+        }
+    }
+    .MobileMenu-link-active{
+        p:first-child{
+            font-size: 23px;
+            color: $green;
+            filter: drop-shadow(0 0 5px $green);
+        }
+        p:last-child{
+            font-size: 10px;
+            color: #fff;
+        }
+    }
+    //мобайл меню конец
+}
