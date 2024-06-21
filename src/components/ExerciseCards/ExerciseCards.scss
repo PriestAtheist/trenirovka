@@ -1,0 +1,45 @@
+@import '../../colors.scss';
+
+
+.exercises_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 70px;
+}
+
+.exercises_card{
+    background-color: $bgLight;
+    //background: linear-gradient(-132deg, rgba($color: $green, $alpha: 1) 0%, rgba($color: $green, $alpha: 0.3) 100%);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    .exercises_card_text{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        p:first-child{
+            color: $green;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        p:last-child{
+            color: #fff;
+            background-color: $bgDark;
+            font-weight: 500;
+            width: 140px;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 20px;
+        }
+    }
+
+    .exercise_card_img{
+        width: 90px;
+    }
+}
+
+.aa{
+    color: #fff;
+}

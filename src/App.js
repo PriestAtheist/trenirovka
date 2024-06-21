@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import Exercises from './pages/Exercises/Exercises';
+import ExercisePage from './components/ExerciseCards/ExercisePage';
 import {Routes, Route} from 'react-router-dom';
 import Programms from './pages/Programms/Programms';
 import Profile from './pages/Profile/Profile';
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path ="exercises" element={<Exercises/>}/>
+          <Route path ="exercises/:id" element={<ExercisePage/>}/>
           <Route path ="programms" element={<Programms/>}/>
           <Route path ="profile" element={<Profile/>}/>
           <Route path ="*" element={<NotFound/>}/>
