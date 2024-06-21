@@ -20,7 +20,7 @@ const ExerciseCards = () => {
                         <p>{exercise.name}</p>
                         <p>25 упражнений</p>
                     </div>
-                    <img className='exercise_card_img' src="/img/pres2.png" alt="" />
+                    <img className='exercise_card_img' src="/img/pres.png" alt="" />
                 </NavLink>
             ))
         }
