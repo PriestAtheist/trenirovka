@@ -7,7 +7,7 @@
     gap: 15px;
 }
 .exercises_card{
-    background-color: $bgDark;
+    background-color: $bgLight;
     //background: linear-gradient(-132deg, rgba($color: $green, $alpha: 1) 0%, rgba($color: $green, $alpha: 0.3) 100%);
     padding: 20px;
     border-radius: 20px;
@@ -24,7 +24,7 @@
         }
         p:last-child{
             color: #fff;
-            background-color: $bgLight;
+            background-color: $bgDark;
             font-weight: bold;
             padding: 5px 10px;
             border-radius: 20px;
