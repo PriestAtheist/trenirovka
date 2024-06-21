@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import './colors.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+::selection{
+  background-color: rgba($color: $green, $alpha: 0.6);
+  color: $bgDark;
+}
+body::-webkit-scrollbar-track {
+  background: $bgDark;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $item;    /* color of the scroll thumb */
+  border-radius: 20px;
+}
+
+body{
+  background-color: $bgLight;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.container{
+  padding: 0 15px ;
+}
