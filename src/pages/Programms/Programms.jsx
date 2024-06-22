@@ -13,6 +13,14 @@ const Programms = () => {
             </div>
             <div className='programms_cards' >
                 <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
+                <ProgrammCard/>
             </div>
             
         </div>
